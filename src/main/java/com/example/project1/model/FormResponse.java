@@ -54,7 +54,7 @@ public class FormResponse {
 
     @ElementCollection
     @CollectionTable(name = "previous_conditions", joinColumns = @JoinColumn(name = "form_response_id"))
-    @Column(name = "condition",  nullable = true)
+    @Column(name = "condition")
     private List<String> previousConditions;
 
     private String otherConditions;
