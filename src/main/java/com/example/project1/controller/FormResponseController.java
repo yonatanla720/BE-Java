@@ -14,6 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/form-response")
+@CrossOrigin(origins = "*")
 public class FormResponseController {
 
     private final FormResponseRepository formResponseRepository;
